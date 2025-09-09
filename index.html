@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="id">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Katalog Mobil Mewah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVBAR -->
+    <nav class="navbar">
+      <div class="logo">🚘 Luxury Cars</div>
+      <ul class="nav-links">
+        <li><a href="#hero">Beranda</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Kontak</a></li>
+      </ul>
+    </nav>
+
+    <!-- HERO -->
+    <section id="hero" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content">
+        <h1>🚘 Luxury Car Collection</h1>
+        <p>
+          Temukan mobil impian dengan desain modern, performa luar biasa, dan
+          fitur eksklusif.
+        </p>
+        <a href="#gallery" class="btn-hero">Lihat Katalog Mobil</a>
+      </div>
+    </section>
+
+    <!-- GALLERY -->
+    <main id="gallery">
+      <div class="gallery">
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\BMW M4.jpg"
+            alt="BMW M4"
+            loading="lazy"
+          />
+          <h2>BMW M4</h2>
+          <p>Rp 3.000.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\BMW M4.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Tesla.jpg"
+            alt="Tesla Model S"
+            loading="lazy"
+          />
+          <h2>Tesla Model S</h2>
+          <p>Rp 12.000.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Tesla.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Mclaren.jpg"
+            alt="McLaren 765LT"
+            loading="lazy"
+          />
+          <h2>McLaren 765LT</h2>
+          <p>Rp 9.000.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Mclaren.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Bugatti Bolide.jpg"
+            alt="Bugatti Bolide"
+            loading="lazy"
+          />
+          <h2>Bugatti Bolide</h2>
+          <p>Rp 15.000.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Bugatti Bolide.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Porsche.jpg"
+            alt="Porsche 911 GT3 RS"
+            loading="lazy"
+          />
+          <h2>Porsche 911 GT3 RS</h2>
+          <p>Rp 5.500.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Porsche.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Mclaren P1.jpg"
+            alt="McLaren P1"
+            loading="lazy"
+          />
+          <h2>McLaren P1</h2>
+          <p>Rp 6.000.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Mclaren P1.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\i8.jpg"
+            alt="BMW i8"
+            loading="lazy"
+          />
+          <h2>BMW i8</h2>
+          <p>Rp 4.800.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\i8.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+
+        <div class="card">
+          <img
+            src="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Lamborghini.jpg"
+            alt="Lamborghini Aventador SVJ"
+            loading="lazy"
+          />
+          <h2>Lamborghini Aventador SVJ</h2>
+          <p>Rp 3.500.000.000</p>
+          <button
+            class="detail-btn"
+            data-img="C:\Users\Asus\OneDrive\Documents\IT Kelas 9\Tugas\Catalog-Car\Lamborghini.jpg"
+          >
+            Lihat Detail
+          </button>
+        </div>
+      </div>
+    </main>
+
+    <!-- MODAL / LIGHTBOX -->
+    <div id="lightbox" class="modal" aria-hidden="true">
+      <button class="modal-close" aria-label="Tutup (Esc)">✕</button>
+      <div class="modal-body">
+        <div class="spinner" aria-hidden="true"></div>
+        <img id="modalImg" alt="Foto mobil" />
+        <p id="modalCaption"></p>
+      </div>
+    </div>
+
+   <!-- FOOTER -->
+<footer id="contact">
+  <div class="footer-container">
+    <h2>🚘 Rekomendasi Mobil Mewah</h2>
+    <p>Pilihan terbaik dari koleksi eksklusif kami:</p>
+
+    <div class="recommend-grid">
+      <a href="#bmw-m4" class="recommend-item">
+        <img src="BMW M4.jpg" alt="BMW M4" class="car-thumb" />
+        <div>
+          <h4>BMW M4</h4>
+          <p>Rp 3.000.000.000</p>
+        </div>
+      </a>
+
+      <a href="#tesla-model-s" class="recommend-item">
+        <img src="Tesla.jpg" alt="Tesla Model S" class="car-thumb" />
+        <div>
+          <h4>Tesla Model S</h4>
+          <p>Rp 12.000.000.000</p>
+        </div>
+      </a>
+
+      <a href="#mclaren-765lt" class="recommend-item">
+        <img src="Mclaren.jpg" alt="McLaren 765LT" class="car-thumb" />
+        <div>
+          <h4>McLaren 765LT</h4>
+          <p>Rp 9.000.000.000</p>
+        </div>
+      </a>
+
+      <a href="#bugatti-bolide" class="recommend-item">
+        <img src="Bugatti Bolide.jpg" alt="Bugatti Bolide" class="car-thumb" />
+        <div>
+          <h4>Bugatti Bolide</h4>
+          <p>Rp 15.000.000.000</p>
+        </div>
+      </a>
+
+      <a href="#porsche-911" class="recommend-item">
+        <img src="Porsche.jpg" alt="Porsche 911 GT3 RS" class="car-thumb" />
+        <div>
+          <h4>Porsche 911 GT3 RS</h4>
+          <p>Rp 5.500.000.000</p>
+        </div>
+      </a>
+
+      <a href="#mclaren-p1" class="recommend-item">
+        <img src="Mclaren P1.jpg" alt="McLaren P1" class="car-thumb" />
+        <div>
+          <h4>McLaren P1</h4>
+          <p>Rp 6.000.000.000</p>
+        </div>
+      </a>
+
+      <a href="#bmw-i8" class="recommend-item">
+        <img src="i8.jpg" alt="BMW i8" class="car-thumb" />
+        <div>
+          <h4>BMW i8</h4>
+          <p>Rp 4.800.000.000</p>
+        </div>
+      </a>
+
+      <a href="#lamborghini-svj" class="recommend-item">
+        <img src="Lamborghini.jpg" alt="Lamborghini Aventador SVJ" class="car-thumb" />
+        <div>
+          <h4>Lamborghini Aventador SVJ</h4>
+          <p>Rp 3.500.000.000</p>
+        </div>
+      </a>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    © 2025 Luxury Car Website | Dibuat oleh Althafariq 
+  </div>
+</footer>
+
+    </footer>
+
+    <!-- Back to Top -->
+    <button id="backToTop" title="Kembali ke Atas">⬆</button>
+
+    <!-- JS -->
+    <script src="script.js" defer></script>
+  </body>
+</html>
